@@ -33,7 +33,7 @@ let dataJSON = "%5B%7B%22data_hr%22%3A%22%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F%5C%2F9L%
 const headers = {
   'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
 }
-let login_token = '';
+let login_token = 'NQVBQFJyQktGHlp6QkpbRl5LRl5qek4uXAQEBAAAAAFnJJi34_PEjUOSWvj-Wv-OvAbhC-aVh7d6ZgOo_FlCJ3vBjJYBbwYD0LFhVhpl4JPxoyuG2RCF6yivJHAT-zojdKxPtLbMRZfXDqnnYG6iOw6pc2iGUNXjB8oEW4ZCoqvWHYvZm79YKF-8isq4452FRnhMqq6GApKBY_tFG03rnXldczcKke7sqJ5bgM_V8SEFsjhzHZ4Y-Zl3kwohgokA';
 //需要修改的运动步数波动范围，脚本默认修改步数范围为1w9到2w5
 const step = randomFriendPin($.getdata('xmMinStep')*1 || 19000, $.getdata('xmMaxStep')*1 || 25000);
 function getToken() {
